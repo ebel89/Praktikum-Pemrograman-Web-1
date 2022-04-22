@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title> Contoh Form </title>
+    </head>
+    <body>
+        <font type="arial black" font_size="6"> Data Diri</font><br><br>
+
+        <form action="simpan_data.html" method="post">
+            <font type="arial" size="5">
+                Nama : <input type="text" name="nama" required><br><br>
+
+                NIM : <input type="text" name="nim" value="" maxlength="9" size="9"><br><br>
+            </font>
+
+            E-mail:
+            <input type="email" name="email" required><br><br>
+
+            Password: <input type="password" name="pass" sizw="11" maxlength="9" required><br><br>
+
+            Tanggal Lahir: 
+            <input type="date" name="bday"><br><br>
+
+            Jenis Kelamin:
+            <br>
+            <input type="radio" name="jenis_kelamin" value="L"> Laki-laki
+            <br>
+            <input type="radio" name="jenis_kelamin" calue="P"> Perempuan
+            <br><br>
+            Pilih Hobi Anda (boleh lebih dari satu): 
+            <br>
+            <input type="checkbox" name="hobi_1" value="Menonton"> Menonton
+            <input type="checkbox" name="hobi_2" value="Main Game"> Main Game
+            <input type="checkbox" name="hobi_3" value="Belanja"> Belanja
+            <input type="checkbox" name="hobi_4" value="Menjawab"> Menjawab
+            <input type="checkbox" name="hobi_5" value="Olahraga"> Olahraga
+            <br>
+            <br>
+
+            Asal Kota:
+            <select name="asal_kota">
+                <option value="Kota Banjarmasin"> Banjarmasin </option>
+                <option value="Kota Bandung"> Bandung</option>
+                <option value="Kota Banjarmasin " selcted> Banjarbaru </option>
+            </select>
+            <br>
+            <br>
+
+            Komentar Anda:
+            <br>
+            <textarea name="komentar" rows="5" cols="20"> Silahkan isi komentar anda </textarea><br><br>
+
+
+            <input type="reset"  name="Ulangi" value="Reset">
+            <input type="submit"  name="kirim" value="Submit">
+            <input type="button"  name="Batal" value="Cancel">
+            <br>
+            <br>
+            <input type="image" name="Gambar" img src="panah.png" width="150" height="150">
+        </form>
+    </body>
+</html>

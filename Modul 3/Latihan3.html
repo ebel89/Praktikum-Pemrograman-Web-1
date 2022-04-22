@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title> Latihan 3 </title>
+    </head>
+    <body>
+        <table border="1">
+            <form action="" method="">
+                <tr>
+                    <th width="70%" height="100px" bgcolor="#87CEEB" colspan="2"><font color="red" size="5"><b>Pendaftaran Kursus</b></font></th>
+                </tr>
+               <tr>
+                   <td bgcolor="grey">
+                       <table>
+                            <tr>
+                                <td style="font-family: arial;" ><b> Daftar Diri </b></td>
+                            </tr>
+
+                           <tr>
+                                <td> Nama: </td>
+                                <td>
+                                    <input type="text" required>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td> NIM: </td>
+                                <td>
+                                    <input type="text" required>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td> E-mail: </td>
+                                <td>
+                                    <input type="email" required>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td> Tanggal Lahir: </td>
+                                <td>
+                                    <input type="date" required>
+                                </td>
+                            </tr>
+
+                            <tr valign="top">
+                                <td> Jenis Kelamin: </td>
+                                <td>
+                                    <input type="radio" name="jenis_kelamin" value="L">Laki-laki<br>
+                                    <input type="radio" name="jenis_kelamin" value="P">Perempuan
+                                </td>
+                            </tr>
+
+                            <tr valign="top">
+                                <td> Pilih Program Kursus: </td>
+                                <td>
+                                    <input type="checkbox" name="kursus_1" value="C#">C#<br>
+                                    <input type="checkbox" name="kursus_2" value="Java">Java<br>
+                                    <input type="checkbox" name="kursus_3" value="SQL">SQL<br>
+                                    <input type="checkbox" name="kursus_4" value="HTML dan PHP">HTML dan PHP<br>
+                                </td>
+                            </tr>
+
+                            <tr valign="top">
+                                <td> Pilihan Hari/Jam Kursus: </td>
+                                <td>
+                                    <select name="jadwal">
+                                        <option value="SR">Senin - Rabu 09.00-11.00</option>
+                                        <option value="KJ">Kamis - Jum'at 09.00-11.00</option>
+                                        <option value="S">Sabtu 09.00-11.00</option>
+                                    </select>
+                                </td>
+                            </tr>
+                       </table>
+                   </td>
+               </tr>
+
+               <tr>
+                   <td bgcolor="salmon">
+                       <table>
+                           <tr>
+                               <td> Komentar Anda </td>
+                            </tr>
+
+                        <tr>
+                            <td>
+                                <textarea name="" id="text" cols="60" rows="10"></textarea>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td>
+                                    <button type="reset" value="Reset"> Reset </button>
+                                    <button type="submit" value="Submit"> Submit </button>
+                                    <button type="cancel" value="Cancel"> Cancel </button>
+                                </td>
+                            </tr>
+
+
+                       </table>
+                   </td>
+               </tr>
+            </form>
+        </table>
+    </body>
+</html>
